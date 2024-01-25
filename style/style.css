@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/*  всем указывать надо */
+}
+
+#addForm {
+  max-width: 700px; /* параметр макс позволяет подстаиваться под размеры экрана (будет сжиматься) */
+  padding: 20px; 
+  border: 2px solid black; /* box-sizing: border-box; - изменяет внутрь объекта */
+  margin: 40px auto;
+  display: flex; /* особенным образом разспологает объекты за счет нижних параметров */
+  justify-content: space-between;
+  align-items: flex-end; /* парамет флекс енд прибивает к нижнему краю рамки */
+}
+
+#addForm input, #addForm select{
+    padding: 5px;
+    width: 150px;
+    border: 2px solid black;
+    height: 30px;
+}
+#addForm button{
+    padding: 5px;
+    border: 2px solid black;
+    background-color: transparent;
+    height: 30px;
+
+}
+
+#addForm .field p{
+    margin-bottom: 5px;
+}
+
+#todoContainer{
+    margin-left: 120px;
+}
+
+
+

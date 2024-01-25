@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <form id="addForm">
+        <label class="field">
+            <p>Название дела: </p>
+            <input name="title" type="text" >
+        </label>
+        <label class="field"> <!-- тег для реализации приписки поля ввода -->
+            <p>Приориетет: </p>
+            <select name="prior" id=""> <!-- в отвечает за выпадающее меню -->
+                <option value="0">Low</option>
+                <option value="1">Medium</option>
+                <option value="2">High</option>
+            </select>
+        </label>
+        <button>Добавить</button>
+    </form>
+    <div id="todoContainer">
+        
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
